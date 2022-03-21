@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Folklore;
+    src: url(../Font/IMFellDWPica-Italic.ttf);
+}
+
+@font-face{
+    font-family: Taylor Swift;
+    src: url(../Font/Satisfaction.ttf);
+}
+
+@font-face{
+    font-family: Lover;
+    src: url(../Font/charlotte.ttf);
+}
+
+h2{
+    text-align: center;
+    font-family: Folklore;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+body{
+    background-position: center;
+    padding: 1em;
+    background-color: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    margin-top: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
+html{
+    background-color: black;
+}
+
+input {
+    width: 95%;
+    padding: 0.7em;
+    margin-bottom: 0.5rem;
+}
+
+input[type="submit"]{
+    width: 30%;
+    background-color: black;
+    color: white;
+}
+
+input[type="submit"]:hover{
+    background-color: red;
+    color: black;
+}
+
+textarea{
+    width: 95%;
+    text-align: left;
+}
+
+#gender{
+    width: 30%;
+    height: 30%;
+    padding: 1%;
+}
+
+div, ul,li{
+    text-align: left;
+}
+
+#home{
+    padding: 1%;
+    right: 3em;
+    font-family: Folklore;
+}
+
+
+
+

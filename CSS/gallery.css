@@ -1,0 +1,31 @@
+.galleryTay{
+    width:  610px;
+    margin: 10px auto;
+    border: 5px solid #ccc;
+    overflow: auto;
+}
+
+.jumbo{
+    width: 600px;
+    height: 400px;
+}
+
+.thumb{
+    width: 200px;
+    float: left;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+
+.thumb:hover{
+    opacity: 50%;
+    cursor:pointer;
+}
+
+img {
+    vertical-align: middle;
+}
+  
+*{
+    box-sizing: border-box;
+}

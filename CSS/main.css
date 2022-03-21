@@ -1,0 +1,162 @@
+@font-face {
+    font-family: Folklore;
+    src: url(../Font/IMFellDWPica-Italic.ttf);
+}
+
+@font-face{
+    font-family: Taylor Swift;
+    src: url(../Font/Satisfaction.ttf);
+}
+
+@font-face{
+    font-family: Lover;
+    src: url(../Font/charlotte.ttf);
+}
+
+h1{
+    text-align: center;
+    font-family:Taylor Swift;
+    
+}
+
+html{
+    background-color: #cdc6ac;
+}
+
+nav{
+    background-color: #4caf50;
+    overflow: hidden;
+    padding: 1em;
+}
+
+nav a{
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    width: 100%;
+    font-family: Folklore;
+}
+
+nav a:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+aside{
+    width: 50%;
+    float: left;
+    background-color: #f1f1f1;
+    padding: 15px;
+    box-sizing: border-box;
+    opacity: 70%;
+}
+
+article{
+    width: 50%;
+    float: left;
+    background-color: #f1f1f1;
+    padding: 15px;
+    box-sizing: border-box;
+    opacity: 70%;
+}
+
+footer{
+    background-color: #ddd;
+    padding: 10px;
+    text-align: left;
+    opacity: 70%;
+}
+
+main{
+    display: flex;
+}
+
+main::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.box{
+    background-color: rgb(252, 252, 252);
+    border: 1px solid rgb(245, 247, 250);
+    border-radius: 8px;
+    padding: 0px 48px;
+    width: 480px;
+    height:600px;
+    margin: 104px auto;
+}
+
+.title{
+    text-align: center;
+    margin-top: 56px;
+    margin-bottom: 8px;
+    color: rgb(207, 183, 121);
+    font-size: 19px;
+}
+
+.p{
+    text-align: center;
+    opacity: 70%;
+}
+.thumb:hover{
+    opacity: 50%;
+    cursor:pointer;
+}
+
+.thumb{
+    width: 50%;
+    float: left;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+
+.button{
+    margin-top: 24px;
+  }
+
+#button{
+    margin: 0px;
+    appearance: none;
+    background: #4caf50 none repeat scroll 0% 0%;
+    outline: currentcolor none medium;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 700;
+    width: 100%;
+    height: 52px;
+    line-height: 50px;
+    padding: 0px 12px;
+    text-align: center;
+    transition: all 0.5s ease-out 0s;
+}
+
+button{
+    background-color: white;
+    color: red;
+}
+
+button:hover{
+    opacity: 70%;
+}
+
+label{
+    color: goldenrod;
+}
+
+.input{
+    display: block;
+    color: rgb(41, 32, 35);
+    width: 100%;
+    height: 47px;
+    padding: 14px;
+    background-image: none;
+    border: 1px solid rgb(235, 235, 235);
+    background-color: rgb(252, 252, 252);
+    font-size: 16px;
+    border-radius: 4px;
+    word-break: break-all;
+}
